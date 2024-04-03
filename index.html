@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .drop-down {
+        border: 1px solid rgba(95, 158, 160, 0.871);
+        width: fit-content;
+        padding: 10px;
+        background-color: rgba(177, 232, 66, 0.864);
+        border-radius: 4px;
+      }
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: none;
+        text-align: center;
+      }
+      .drop-down:hover ul{
+        display:block;
+      }
+      a{
+        text-decoration: none;
+        border-bottom: 2px solid;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="drop-down">Dropdown
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+    </div>
+  </body>
+</html>
